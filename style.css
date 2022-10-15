@@ -115,10 +115,35 @@ main{
 .v-none{
     visibility: hidden;
 }
+#book-ticket-btn {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+}
+#book-ticket-btn:hover {
+  background-color: white;
+  color: black;
+  
+}
 input, button[type="submit"]{
     width: 200px;
     height: 35px;
     padding: .5rem;
+}
+#submitBtn {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+}
+#submitBtn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 @keyframes rotate {
     from{transform: rotate(0deg);}
